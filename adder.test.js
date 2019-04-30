@@ -4,4 +4,7 @@ describe("adder", () => {
   it("should add two numbers", () => {
     expect(adder(1, 2)).toBe(3);
   });
+  it("should add just one number", () => {
+    expect(adder(4)).toBe(4);
+  });
 });
