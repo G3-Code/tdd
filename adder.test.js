@@ -10,4 +10,7 @@ describe("adder", () => {
   it("should add three numbers", () => {
     expect(adder(1, 2, 3)).toBe(6);
   });
+  it("should add 0 numbers", () => {
+    expect(adder()).toBe(0);
+  });
 });
