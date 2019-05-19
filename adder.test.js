@@ -13,4 +13,7 @@ describe("adder", () => {
   it("should add 0 numbers", () => {
     expect(adder()).toBe(0);
   });
+  it("Should pass for any number of arguments", () => {
+    expect(addr(2, 3, 4, 5, 6)).toBe(10);
+  });
 });
